@@ -422,7 +422,7 @@ function Character(spritesheet, spriteSize, spriteFrames, spriteScale) {
                     happySound.play();
                     toy.state = "collected";
                     balls.splice(index, 1); 
-                    score += 1; //
+                    score += 1; 
                     toyCollected = true;
                 }
             });
