@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title></title>
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+
+<body>
+  <div class="grid">
+    <div>
+      <ul>
+        <li><a href="wireframe.html">Wireframe</a></li>
+        <li><a href="storyboard.html">Storyboard</a></li>
+      </ul>
+    </div>
+    <main>
+      <section class="center">
+        <h2 class="underline">Pool Game!</h2>
+        <canvas id="canvas" width="1280" height="720"></canvas>
+      </section>
+        <div id="scoreDisplay"></div>
+        <div id="timerDisplay"></div>
+      <div>
+        <button id="startButton">Start Game</button>
+        <button id="restartButton">Restart Game</button>
+      </div>
+      <p> Use W,A,S,D to control the Orca and space to pick the toys up. The goal is to collect as many pool toys as possible before they disappear and the timer runs out. </p>
+      <div class = "SliderC">
+        <label for="Slider">Volume:</label>
+        <input type="range" id="Slider" min="0" max="1" step="0.1" value="0.5">
+      </div>
+    </main>
+    <script src="./app.js"></script>
+</body>
+</html>

@@ -1,0 +1,125 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+.clear::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+html,
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    color: #000;
+    background-color: #cecece;
+}
+
+main {
+    background-color: #ffffff;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+    border-radius: 1em;
+    padding: 20px;
+}
+
+body {
+    margin-top: 0;
+}
+
+h2 {
+    font-size: xx-large;
+    text-align: center;
+}
+
+section {
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+canvas {
+    background-color: #00030127;
+    border: 1px solid #0703ee27;
+}
+
+.center {
+   display: grid;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+}
+
+p {
+    text-align: center;
+    font-size: 25px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #0c0644;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #111;
+  }
+
+#scoreDisplay {
+    position: absolute;  
+    top: 50px;          
+    right: 300px;        
+    font-size: 20px;    
+    color: black;      
+    z-index: 10;        
+}
+
+#timerDisplay {
+    position: absolute;  
+    top: 50px;          
+    right: 200px;       
+    font-size: 20px;     
+    color: black;       
+    z-index: 10;         
+}
+
+#startButton {
+    position: absolute; 
+    top: 140px;
+    right: 2000px; 
+    border-radius: 6px;
+    height: 30px;
+    background-color: grey;
+}
+
+#restartButton {
+    position: absolute; 
+    top: 140px;
+    right: 1900px; 
+    border-radius: 6px;
+    height: 30px;
+    background-color: grey;
+}
+
+
+
